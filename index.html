@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Credit Card Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="d-flex flex-column align-items-center">
+        <h2>Credit Card Form</h2>
+      </header>
+
+      <!-- Content -->
+      <main class="d-flex flex-column align-items-center">
+        <!-- Credit Card Vizualization -->
+        <div id="card"></div>
+
+        <!-- Credit Card Form -->
+        <div class="form">
+          <div class="row">
+            <input type="text" class="form-control" id="cardNumber" placeholder="Card Number" />
+          </div>
+          <div class="row">
+            <input type="text" class="form-control" id="name" placeholder="Name" />
+          </div>
+          <div class="row">
+            <div class="col mr-4">
+              <input type="text" class="form-control" id="validTill" placeholder="Valid Till" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="cvc" placeholder="CVC" />
+            </div>
+          </div>
+          <div class="row">
+            <button type="button" class="btn btn-primary pay">PAY</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

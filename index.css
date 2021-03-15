@@ -1,0 +1,25 @@
+.container {
+  width: 40%;
+  padding: 2%;
+}
+
+#card {
+  width: 20rem;
+  height: 12rem;
+  border-radius: 1rem;
+  background-color: #8e8e8e;
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.col {
+  padding: 0px;
+  width: 90%;
+}
+
+.pay {
+  width: 100%;
+}
